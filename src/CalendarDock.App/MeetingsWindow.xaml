@@ -1,0 +1,20 @@
+<Window
+    x:Class="CalendarDock.App.MeetingsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Padding="16" RowSpacing="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <TextBlock Text="Upcoming meetings" Style="{StaticResource SubtitleTextBlockStyle}" />
+            <Button x:Name="RefreshButton" Content="Refresh" HorizontalAlignment="Right" Click="OnRefresh" />
+        </Grid>
+        <ScrollViewer Grid.Row="1">
+            <StackPanel x:Name="MeetingList" Spacing="8" />
+        </ScrollViewer>
+        <StackPanel x:Name="AccountPanel" Grid.Row="2" Orientation="Horizontal" Spacing="8" />
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "CalendarDock.App (Package)": {
+      "commandName": "MsixPackage"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CalendarDock.App/CalendarDock.App.csproj">
+      <Platform Project="x86" />
+    </Project>
+    <Project Path="src/CalendarDock.Core/CalendarDock.Core.csproj" />
+    <Project Path="src/CalendarDock.Providers/CalendarDock.Providers.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CalendarDock.Tests/CalendarDock.Tests.csproj" />
+  </Folder>
+</Solution>
